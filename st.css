@@ -1,0 +1,44 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.wrap {
+	width: 60%;
+	margin: 32px auto;
+}
+
+.blk {
+	border: 4px solid black;
+	margin: 16px;
+}
+
+.part1 {
+	height: 420px;
+	padding: 0 16px;
+}
+
+.part1 .blm1, .part1 .blm3 {
+	width: 19.8%;
+	float: left;
+	height: 100%;
+}
+
+.part1 .blm2 {
+	width: 50%;
+	float: left;
+}
+
+.part1 .blm2 .blkk1,
+.part1 .blm2 .blkk2 {
+	height: 200px;
+	margin: 20px 0;
+}
+
+.part2 {
+	margin: 32px 0;
+}
+
+.part2 .blk {
+	height: 128px;
+}
